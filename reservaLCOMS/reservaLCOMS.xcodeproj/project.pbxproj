@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4154ACC020B2079D00DA9797 /* LaboratorioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4154ACBF20B2079D00DA9797 /* LaboratorioViewController.m */; };
+		4154ACC320B207BE00DA9797 /* MateriasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4154ACC220B207BE00DA9797 /* MateriasViewController.m */; };
+		4154ACC620B207E300DA9797 /* ProfesorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4154ACC520B207E300DA9797 /* ProfesorViewController.m */; };
+		4154ACC920B2080800DA9797 /* ReservacionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4154ACC820B2080800DA9797 /* ReservacionViewController.m */; };
+		4154ACCC20B2082500DA9797 /* TipolabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4154ACCB20B2082500DA9797 /* TipolabViewController.m */; };
+		4154ACCF20B2254900DA9797 /* controlBD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4154ACCE20B2254900DA9797 /* controlBD.m */; };
+		419CD3A420B13C3A008ED5D3 /* labs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 419CD39F20B13C3A008ED5D3 /* labs.jpg */; };
+		419CD3A520B13C3A008ED5D3 /* materias.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 419CD3A020B13C3A008ED5D3 /* materias.jpg */; };
+		419CD3A620B13C3A008ED5D3 /* profesores.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 419CD3A120B13C3A008ED5D3 /* profesores.jpg */; };
+		419CD3A720B13C3A008ED5D3 /* reservacion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 419CD3A220B13C3A008ED5D3 /* reservacion.jpg */; };
+		419CD3A820B13C3A008ED5D3 /* tipoLabs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 419CD3A320B13C3A008ED5D3 /* tipoLabs.jpg */; };
+		41D3E22220B1134A00D80781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D3E22120B1134A00D80781 /* main.m */; };
+		41D3E22520B1134A00D80781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D3E22420B1134A00D80781 /* AppDelegate.m */; };
+		41D3E22820B1134A00D80781 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D3E22720B1134A00D80781 /* ViewController.m */; };
+		41D3E22B20B1134A00D80781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D3E22920B1134A00D80781 /* Main.storyboard */; };
+		41D3E22D20B1134A00D80781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D3E22C20B1134A00D80781 /* Assets.xcassets */; };
+		41D3E23020B1134A00D80781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D3E22E20B1134A00D80781 /* LaunchScreen.storyboard */; };
+		41D3E23B20B1134A00D80781 /* reservaLCOMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D3E23A20B1134A00D80781 /* reservaLCOMSTests.m */; };
+		41D3E24620B1134A00D80781 /* reservaLCOMSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D3E24520B1134A00D80781 /* reservaLCOMSUITests.m */; };
+		41D3E25420B113D300D80781 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D3E25320B113D300D80781 /* libsqlite3.0.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41D3E23720B1134A00D80781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41D3E21520B1134A00D80781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41D3E21C20B1134A00D80781;
+			remoteInfo = reservaLCOMS;
+		};
+		41D3E24220B1134A00D80781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41D3E21520B1134A00D80781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41D3E21C20B1134A00D80781;
+			remoteInfo = reservaLCOMS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4154ACBE20B2079D00DA9797 /* LaboratorioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaboratorioViewController.h; sourceTree = "<group>"; };
+		4154ACBF20B2079D00DA9797 /* LaboratorioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaboratorioViewController.m; sourceTree = "<group>"; };
+		4154ACC120B207BE00DA9797 /* MateriasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MateriasViewController.h; sourceTree = "<group>"; };
+		4154ACC220B207BE00DA9797 /* MateriasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MateriasViewController.m; sourceTree = "<group>"; };
+		4154ACC420B207E300DA9797 /* ProfesorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfesorViewController.h; sourceTree = "<group>"; };
+		4154ACC520B207E300DA9797 /* ProfesorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfesorViewController.m; sourceTree = "<group>"; };
+		4154ACC720B2080800DA9797 /* ReservacionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReservacionViewController.h; sourceTree = "<group>"; };
+		4154ACC820B2080800DA9797 /* ReservacionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReservacionViewController.m; sourceTree = "<group>"; };
+		4154ACCA20B2082500DA9797 /* TipolabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipolabViewController.h; sourceTree = "<group>"; };
+		4154ACCB20B2082500DA9797 /* TipolabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipolabViewController.m; sourceTree = "<group>"; };
+		4154ACCD20B2254900DA9797 /* controlBD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = controlBD.h; sourceTree = "<group>"; };
+		4154ACCE20B2254900DA9797 /* controlBD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = controlBD.m; sourceTree = "<group>"; };
+		419CD39F20B13C3A008ED5D3 /* labs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = labs.jpg; sourceTree = "<group>"; };
+		419CD3A020B13C3A008ED5D3 /* materias.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = materias.jpg; sourceTree = "<group>"; };
+		419CD3A120B13C3A008ED5D3 /* profesores.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profesores.jpg; sourceTree = "<group>"; };
+		419CD3A220B13C3A008ED5D3 /* reservacion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = reservacion.jpg; sourceTree = "<group>"; };
+		419CD3A320B13C3A008ED5D3 /* tipoLabs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tipoLabs.jpg; sourceTree = "<group>"; };
+		41D3E21D20B1134A00D80781 /* reservaLCOMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reservaLCOMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D3E22120B1134A00D80781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41D3E22320B1134A00D80781 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41D3E22420B1134A00D80781 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41D3E22620B1134A00D80781 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41D3E22720B1134A00D80781 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41D3E22A20B1134A00D80781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41D3E22C20B1134A00D80781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41D3E22F20B1134A00D80781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41D3E23120B1134A00D80781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D3E23620B1134A00D80781 /* reservaLCOMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reservaLCOMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D3E23A20B1134A00D80781 /* reservaLCOMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reservaLCOMSTests.m; sourceTree = "<group>"; };
+		41D3E23C20B1134A00D80781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D3E24120B1134A00D80781 /* reservaLCOMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reservaLCOMSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D3E24520B1134A00D80781 /* reservaLCOMSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reservaLCOMSUITests.m; sourceTree = "<group>"; };
+		41D3E24720B1134A00D80781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D3E25320B113D300D80781 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41D3E21A20B1134A00D80781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D3E25420B113D300D80781 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D3E23320B1134A00D80781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D3E23E20B1134A00D80781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41D3E21420B1134A00D80781 = {
+			isa = PBXGroup;
+			children = (
+				41D3E25320B113D300D80781 /* libsqlite3.0.tbd */,
+				41D3E21F20B1134A00D80781 /* reservaLCOMS */,
+				41D3E23920B1134A00D80781 /* reservaLCOMSTests */,
+				41D3E24420B1134A00D80781 /* reservaLCOMSUITests */,
+				41D3E21E20B1134A00D80781 /* Products */,
+				419CD39F20B13C3A008ED5D3 /* labs.jpg */,
+				419CD3A020B13C3A008ED5D3 /* materias.jpg */,
+				419CD3A120B13C3A008ED5D3 /* profesores.jpg */,
+				419CD3A220B13C3A008ED5D3 /* reservacion.jpg */,
+				419CD3A320B13C3A008ED5D3 /* tipoLabs.jpg */,
+			);
+			sourceTree = "<group>";
+		};
+		41D3E21E20B1134A00D80781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41D3E21D20B1134A00D80781 /* reservaLCOMS.app */,
+				41D3E23620B1134A00D80781 /* reservaLCOMSTests.xctest */,
+				41D3E24120B1134A00D80781 /* reservaLCOMSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41D3E21F20B1134A00D80781 /* reservaLCOMS */ = {
+			isa = PBXGroup;
+			children = (
+				41D3E22320B1134A00D80781 /* AppDelegate.h */,
+				41D3E22420B1134A00D80781 /* AppDelegate.m */,
+				41D3E22620B1134A00D80781 /* ViewController.h */,
+				41D3E22720B1134A00D80781 /* ViewController.m */,
+				41D3E22920B1134A00D80781 /* Main.storyboard */,
+				41D3E22C20B1134A00D80781 /* Assets.xcassets */,
+				41D3E22E20B1134A00D80781 /* LaunchScreen.storyboard */,
+				41D3E23120B1134A00D80781 /* Info.plist */,
+				41D3E22020B1134A00D80781 /* Supporting Files */,
+				4154ACBE20B2079D00DA9797 /* LaboratorioViewController.h */,
+				4154ACBF20B2079D00DA9797 /* LaboratorioViewController.m */,
+				4154ACC120B207BE00DA9797 /* MateriasViewController.h */,
+				4154ACC220B207BE00DA9797 /* MateriasViewController.m */,
+				4154ACC420B207E300DA9797 /* ProfesorViewController.h */,
+				4154ACC520B207E300DA9797 /* ProfesorViewController.m */,
+				4154ACC720B2080800DA9797 /* ReservacionViewController.h */,
+				4154ACC820B2080800DA9797 /* ReservacionViewController.m */,
+				4154ACCA20B2082500DA9797 /* TipolabViewController.h */,
+				4154ACCB20B2082500DA9797 /* TipolabViewController.m */,
+				4154ACCD20B2254900DA9797 /* controlBD.h */,
+				4154ACCE20B2254900DA9797 /* controlBD.m */,
+			);
+			path = reservaLCOMS;
+			sourceTree = "<group>";
+		};
+		41D3E22020B1134A00D80781 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41D3E22120B1134A00D80781 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41D3E23920B1134A00D80781 /* reservaLCOMSTests */ = {
+			isa = PBXGroup;
+			children = (
+				41D3E23A20B1134A00D80781 /* reservaLCOMSTests.m */,
+				41D3E23C20B1134A00D80781 /* Info.plist */,
+			);
+			path = reservaLCOMSTests;
+			sourceTree = "<group>";
+		};
+		41D3E24420B1134A00D80781 /* reservaLCOMSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41D3E24520B1134A00D80781 /* reservaLCOMSUITests.m */,
+				41D3E24720B1134A00D80781 /* Info.plist */,
+			);
+			path = reservaLCOMSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41D3E21C20B1134A00D80781 /* reservaLCOMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D3E24A20B1134A00D80781 /* Build configuration list for PBXNativeTarget "reservaLCOMS" */;
+			buildPhases = (
+				41D3E21920B1134A00D80781 /* Sources */,
+				41D3E21A20B1134A00D80781 /* Frameworks */,
+				41D3E21B20B1134A00D80781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = reservaLCOMS;
+			productName = reservaLCOMS;
+			productReference = 41D3E21D20B1134A00D80781 /* reservaLCOMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41D3E23520B1134A00D80781 /* reservaLCOMSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D3E24D20B1134A00D80781 /* Build configuration list for PBXNativeTarget "reservaLCOMSTests" */;
+			buildPhases = (
+				41D3E23220B1134A00D80781 /* Sources */,
+				41D3E23320B1134A00D80781 /* Frameworks */,
+				41D3E23420B1134A00D80781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41D3E23820B1134A00D80781 /* PBXTargetDependency */,
+			);
+			name = reservaLCOMSTests;
+			productName = reservaLCOMSTests;
+			productReference = 41D3E23620B1134A00D80781 /* reservaLCOMSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41D3E24020B1134A00D80781 /* reservaLCOMSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D3E25020B1134A00D80781 /* Build configuration list for PBXNativeTarget "reservaLCOMSUITests" */;
+			buildPhases = (
+				41D3E23D20B1134A00D80781 /* Sources */,
+				41D3E23E20B1134A00D80781 /* Frameworks */,
+				41D3E23F20B1134A00D80781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41D3E24320B1134A00D80781 /* PBXTargetDependency */,
+			);
+			name = reservaLCOMSUITests;
+			productName = reservaLCOMSUITests;
+			productReference = 41D3E24120B1134A00D80781 /* reservaLCOMSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41D3E21520B1134A00D80781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "cristian castillo";
+				TargetAttributes = {
+					41D3E21C20B1134A00D80781 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					41D3E23520B1134A00D80781 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 41D3E21C20B1134A00D80781;
+					};
+					41D3E24020B1134A00D80781 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 41D3E21C20B1134A00D80781;
+					};
+				};
+			};
+			buildConfigurationList = 41D3E21820B1134A00D80781 /* Build configuration list for PBXProject "reservaLCOMS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41D3E21420B1134A00D80781;
+			productRefGroup = 41D3E21E20B1134A00D80781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41D3E21C20B1134A00D80781 /* reservaLCOMS */,
+				41D3E23520B1134A00D80781 /* reservaLCOMSTests */,
+				41D3E24020B1134A00D80781 /* reservaLCOMSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41D3E21B20B1134A00D80781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D3E23020B1134A00D80781 /* LaunchScreen.storyboard in Resources */,
+				419CD3A820B13C3A008ED5D3 /* tipoLabs.jpg in Resources */,
+				419CD3A420B13C3A008ED5D3 /* labs.jpg in Resources */,
+				419CD3A520B13C3A008ED5D3 /* materias.jpg in Resources */,
+				41D3E22D20B1134A00D80781 /* Assets.xcassets in Resources */,
+				41D3E22B20B1134A00D80781 /* Main.storyboard in Resources */,
+				419CD3A720B13C3A008ED5D3 /* reservacion.jpg in Resources */,
+				419CD3A620B13C3A008ED5D3 /* profesores.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D3E23420B1134A00D80781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D3E23F20B1134A00D80781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41D3E21920B1134A00D80781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D3E22820B1134A00D80781 /* ViewController.m in Sources */,
+				41D3E22520B1134A00D80781 /* AppDelegate.m in Sources */,
+				4154ACC620B207E300DA9797 /* ProfesorViewController.m in Sources */,
+				4154ACC920B2080800DA9797 /* ReservacionViewController.m in Sources */,
+				4154ACCC20B2082500DA9797 /* TipolabViewController.m in Sources */,
+				41D3E22220B1134A00D80781 /* main.m in Sources */,
+				4154ACCF20B2254900DA9797 /* controlBD.m in Sources */,
+				4154ACC320B207BE00DA9797 /* MateriasViewController.m in Sources */,
+				4154ACC020B2079D00DA9797 /* LaboratorioViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D3E23220B1134A00D80781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D3E23B20B1134A00D80781 /* reservaLCOMSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D3E23D20B1134A00D80781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D3E24620B1134A00D80781 /* reservaLCOMSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41D3E23820B1134A00D80781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41D3E21C20B1134A00D80781 /* reservaLCOMS */;
+			targetProxy = 41D3E23720B1134A00D80781 /* PBXContainerItemProxy */;
+		};
+		41D3E24320B1134A00D80781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41D3E21C20B1134A00D80781 /* reservaLCOMS */;
+			targetProxy = 41D3E24220B1134A00D80781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41D3E22920B1134A00D80781 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41D3E22A20B1134A00D80781 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41D3E22E20B1134A00D80781 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41D3E22F20B1134A00D80781 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41D3E24820B1134A00D80781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41D3E24920B1134A00D80781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41D3E24B20B1134A00D80781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = reservaLCOMS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sv.edu.ues.fia.reservaLCOMS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41D3E24C20B1134A00D80781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = reservaLCOMS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sv.edu.ues.fia.reservaLCOMS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41D3E24E20B1134A00D80781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = reservaLCOMSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sv.edu.ues.fia.reservaLCOMSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reservaLCOMS.app/reservaLCOMS";
+			};
+			name = Debug;
+		};
+		41D3E24F20B1134A00D80781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = reservaLCOMSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sv.edu.ues.fia.reservaLCOMSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reservaLCOMS.app/reservaLCOMS";
+			};
+			name = Release;
+		};
+		41D3E25120B1134A00D80781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = reservaLCOMSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sv.edu.ues.fia.reservaLCOMSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = reservaLCOMS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		41D3E25220B1134A00D80781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = reservaLCOMSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sv.edu.ues.fia.reservaLCOMSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = reservaLCOMS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41D3E21820B1134A00D80781 /* Build configuration list for PBXProject "reservaLCOMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D3E24820B1134A00D80781 /* Debug */,
+				41D3E24920B1134A00D80781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D3E24A20B1134A00D80781 /* Build configuration list for PBXNativeTarget "reservaLCOMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D3E24B20B1134A00D80781 /* Debug */,
+				41D3E24C20B1134A00D80781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D3E24D20B1134A00D80781 /* Build configuration list for PBXNativeTarget "reservaLCOMSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D3E24E20B1134A00D80781 /* Debug */,
+				41D3E24F20B1134A00D80781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D3E25020B1134A00D80781 /* Build configuration list for PBXNativeTarget "reservaLCOMSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D3E25120B1134A00D80781 /* Debug */,
+				41D3E25220B1134A00D80781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41D3E21520B1134A00D80781 /* Project object */;
+}
