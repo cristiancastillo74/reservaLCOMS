@@ -13,5 +13,5 @@
 
 @property (strong,nonatomic) NSString *dbPath;
 +(controlBD *) sharedInstance;
--(void) crearOabrirDB;
+-(void) crearOabrirBD;
 @end
