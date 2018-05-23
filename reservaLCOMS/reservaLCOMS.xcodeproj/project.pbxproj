@@ -28,6 +28,7 @@
 		41D3E23B20B1134A00D80781 /* reservaLCOMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D3E23A20B1134A00D80781 /* reservaLCOMSTests.m */; };
 		41D3E24620B1134A00D80781 /* reservaLCOMSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D3E24520B1134A00D80781 /* reservaLCOMSUITests.m */; };
 		41D3E25420B113D300D80781 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D3E25320B113D300D80781 /* libsqlite3.0.tbd */; };
+		55C4DC1820B5DA4200B8F708 /* Laboratorio.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C4DC1720B5DA4200B8F708 /* Laboratorio.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,8 @@
 		41D3E24520B1134A00D80781 /* reservaLCOMSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reservaLCOMSUITests.m; sourceTree = "<group>"; };
 		41D3E24720B1134A00D80781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41D3E25320B113D300D80781 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		55C4DC1620B5DA4200B8F708 /* Laboratorio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Laboratorio.h; sourceTree = "<group>"; };
+		55C4DC1720B5DA4200B8F708 /* Laboratorio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Laboratorio.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +167,8 @@
 				4154ACCE20B2254900DA9797 /* controlBD.m */,
 				4175F63420B5733D00861A0B /* Profesor.h */,
 				4175F63520B5733D00861A0B /* Profesor.m */,
+				55C4DC1620B5DA4200B8F708 /* Laboratorio.h */,
+				55C4DC1720B5DA4200B8F708 /* Laboratorio.m */,
 			);
 			path = reservaLCOMS;
 			sourceTree = "<group>";
@@ -337,6 +342,7 @@
 				4175F63620B5733D00861A0B /* Profesor.m in Sources */,
 				41D3E22220B1134A00D80781 /* main.m in Sources */,
 				4154ACCF20B2254900DA9797 /* controlBD.m in Sources */,
+				55C4DC1820B5DA4200B8F708 /* Laboratorio.m in Sources */,
 				4154ACC320B207BE00DA9797 /* MateriasViewController.m in Sources */,
 				4154ACC020B2079D00DA9797 /* LaboratorioViewController.m in Sources */,
 			);

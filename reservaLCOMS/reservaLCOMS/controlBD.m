@@ -49,7 +49,7 @@
             
             sqlite3_exec(reservaBD, sql_stmt, NULL, NULL, &error);
             //crear tabla
-            sqlite3_exec(reservaBD, sql_stmt, NULL, NULL, &error);
+            sql_stmt = "CREATE TABLE laboratorio(codLab VARCHAR(10) NOT NULL PRIMARY KEY, idTipoLab VARCHAR(10), cupo VARCHAR(4), planta VARCHAR(4), FOREIGN KEY (idTipoLab) references TIPOLAB(IDTIPOLAB) on delete restrict on update restrict);";            sqlite3_exec(reservaBD, sql_stmt, NULL, NULL, &error);
             //crear tabla
             sqlite3_exec(reservaBD, sql_stmt, NULL, NULL, &error);
             sqlite3_close(reservaBD);
