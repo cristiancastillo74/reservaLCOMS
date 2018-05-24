@@ -27,6 +27,9 @@
 		41D3E23B20B1134A00D80781 /* reservaLCOMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D3E23A20B1134A00D80781 /* reservaLCOMSTests.m */; };
 		41D3E24620B1134A00D80781 /* reservaLCOMSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D3E24520B1134A00D80781 /* reservaLCOMSUITests.m */; };
 		41D3E25420B113D300D80781 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D3E25320B113D300D80781 /* libsqlite3.0.tbd */; };
+		4C58881A20B5FE5B00BEBA26 /* TipoLab.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C58881920B5FE5B00BEBA26 /* TipoLab.m */; };
+		4C64953C20B334B100CC2FF7 /* Materias.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C64953B20B334B100CC2FF7 /* Materias.m */; };
+		4CB4944320B2B7D30028F7A6 /* Reservacion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4944220B2B7D30028F7A6 /* Reservacion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +84,12 @@
 		41D3E24520B1134A00D80781 /* reservaLCOMSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reservaLCOMSUITests.m; sourceTree = "<group>"; };
 		41D3E24720B1134A00D80781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41D3E25320B113D300D80781 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		4C58881820B5FE5B00BEBA26 /* TipoLab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipoLab.h; sourceTree = "<group>"; };
+		4C58881920B5FE5B00BEBA26 /* TipoLab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipoLab.m; sourceTree = "<group>"; };
+		4C64953A20B334B100CC2FF7 /* Materias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Materias.h; sourceTree = "<group>"; };
+		4C64953B20B334B100CC2FF7 /* Materias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Materias.m; sourceTree = "<group>"; };
+		4CB4944120B2B7D30028F7A6 /* Reservacion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reservacion.h; sourceTree = "<group>"; };
+		4CB4944220B2B7D30028F7A6 /* Reservacion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reservacion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +168,12 @@
 				4154ACCB20B2082500DA9797 /* TipolabViewController.m */,
 				4154ACCD20B2254900DA9797 /* controlBD.h */,
 				4154ACCE20B2254900DA9797 /* controlBD.m */,
+				4CB4944120B2B7D30028F7A6 /* Reservacion.h */,
+				4CB4944220B2B7D30028F7A6 /* Reservacion.m */,
+				4C64953A20B334B100CC2FF7 /* Materias.h */,
+				4C64953B20B334B100CC2FF7 /* Materias.m */,
+				4C58881820B5FE5B00BEBA26 /* TipoLab.h */,
+				4C58881920B5FE5B00BEBA26 /* TipoLab.m */,
 			);
 			path = reservaLCOMS;
 			sourceTree = "<group>";
@@ -325,7 +340,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D3E22820B1134A00D80781 /* ViewController.m in Sources */,
+				4CB4944320B2B7D30028F7A6 /* Reservacion.m in Sources */,
 				41D3E22520B1134A00D80781 /* AppDelegate.m in Sources */,
+				4C58881A20B5FE5B00BEBA26 /* TipoLab.m in Sources */,
 				4154ACC620B207E300DA9797 /* ProfesorViewController.m in Sources */,
 				4154ACC920B2080800DA9797 /* ReservacionViewController.m in Sources */,
 				4154ACCC20B2082500DA9797 /* TipolabViewController.m in Sources */,
@@ -333,6 +350,7 @@
 				4154ACCF20B2254900DA9797 /* controlBD.m in Sources */,
 				4154ACC320B207BE00DA9797 /* MateriasViewController.m in Sources */,
 				4154ACC020B2079D00DA9797 /* LaboratorioViewController.m in Sources */,
+				4C64953C20B334B100CC2FF7 /* Materias.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +442,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -462,6 +481,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -474,9 +494,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = reservaLCOMS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sv.edu.ues.fia.reservaLCOMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -485,9 +507,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = reservaLCOMS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sv.edu.ues.fia.reservaLCOMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

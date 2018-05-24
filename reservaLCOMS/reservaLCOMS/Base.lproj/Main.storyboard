@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
@@ -16,6 +15,85 @@
                     <view key="view" contentMode="scaleToFill" id="Xe1-42-2GD">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Id Tipo Laboratorio" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6qT-xO-fR4">
+                                <rect key="frame" x="71" y="38" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e8a-CG-EXG">
+                                <rect key="frame" x="56" y="101" width="156" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ram" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6mL-V7-m4q">
+                                <rect key="frame" x="56" y="163" width="118" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sitemas Operativo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ykl-pe-cfl">
+                                <rect key="frame" x="56" y="220" width="169" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Capacidad Disco" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4xw-0A-Nwl">
+                                <rect key="frame" x="53" y="277" width="133" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Procesador" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="60q-tH-167">
+                                <rect key="frame" x="56" y="338" width="133" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAY-lA-5gc">
+                                <rect key="frame" x="305" y="106" width="92" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Insertar">
+                                    <color key="titleShadowColor" red="0.7597671172581153" green="1" blue="0.51696721599239015" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="InsertarTipolabBoton:" destination="We9-yc-MUh" eventType="touchUpInside" id="SyW-Hg-CJn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exh-Yy-kZl">
+                                <rect key="frame" x="310" y="198" width="92" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Actualizar"/>
+                                <connections>
+                                    <action selector="ActualizarTipolabBoton:" destination="We9-yc-MUh" eventType="touchUpInside" id="NKE-gL-BUi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jmk-Lb-8gw">
+                                <rect key="frame" x="457" y="106" width="104" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Seleccionar"/>
+                                <connections>
+                                    <action selector="SeleccionarBoton:" destination="We9-yc-MUh" eventType="touchUpInside" id="1dz-gH-fkw"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0IX-ta-2oN">
+                                <rect key="frame" x="111" y="391" width="341" height="179"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dh6-qb-akP">
+                                <rect key="frame" x="457" y="198" width="104" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Eliminar">
+                                    <color key="titleShadowColor" red="1" green="0.083977894348171156" blue="0.13538789934532414" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="EliminarBoton:" destination="We9-yc-MUh" eventType="touchUpInside" id="Tce-Ak-VNI"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -23,6 +101,15 @@
                             <outletCollection property="gestureRecognizers" destination="5Hg-Lg-45L" appends="YES" id="Ggv-5O-1Af"/>
                         </connections>
                     </view>
+                    <connections>
+                        <outlet property="TipolabTableView" destination="0IX-ta-2oN" id="wSd-T4-wNe"/>
+                        <outlet property="capacidadDiscoField" destination="4xw-0A-Nwl" id="Cqi-bz-N0b"/>
+                        <outlet property="idTipoLabField" destination="6qT-xO-fR4" id="vdf-S0-U7I"/>
+                        <outlet property="nombreField" destination="e8a-CG-EXG" id="tZw-lT-whg"/>
+                        <outlet property="procesadorField" destination="60q-tH-167" id="vax-9b-piR"/>
+                        <outlet property="ramField" destination="6mL-V7-m4q" id="GfY-9B-J8f"/>
+                        <outlet property="sistemasOpeField" destination="Ykl-pe-cfl" id="l95-4S-Dvf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SSx-Ec-K6w" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="5Hg-Lg-45L">
@@ -31,7 +118,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="544" y="-484"/>
+            <point key="canvasLocation" x="522" y="-636"/>
         </scene>
         <!--Laboratorio View Controller-->
         <scene sceneID="8vu-SG-ljg">
@@ -97,9 +184,84 @@
                         <viewControllerLayoutGuide type="top" id="Ch1-it-cCl"/>
                         <viewControllerLayoutGuide type="bottom" id="Icg-Te-VZF"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="dUz-mO-wXX">
+                    <view key="view" contentMode="scaleToFill" placeholderIntrinsicWidth="600" placeholderIntrinsicHeight="600" id="dUz-mO-wXX">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ID PROFESOR" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0YL-I1-Gfc">
+                                <rect key="frame" x="146" y="81" width="167" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="CODIGO ASIGNATURA" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LNb-k9-H1t">
+                                <rect key="frame" x="146" y="119" width="167" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="CODIGO LABORATORIO" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z83-Jh-vfV">
+                                <rect key="frame" x="146" y="157" width="179" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ID DIA" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cjd-kc-WH0">
+                                <rect key="frame" x="146" y="242" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ID HORARIO" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rr7-5f-7Ee">
+                                <rect key="frame" x="146" y="204" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6K-Dv-CMg">
+                                <rect key="frame" x="146" y="308" width="75" height="32"/>
+                                <animations/>
+                                <state key="normal" title="INSERTAR"/>
+                                <connections>
+                                    <action selector="insertarReservacionBoton:" destination="tse-u5-80G" eventType="touchUpInside" id="zd2-iF-4Xn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bnI-9W-33s">
+                                <rect key="frame" x="146" y="359" width="91" height="30"/>
+                                <animations/>
+                                <state key="normal" title="ACTUALIZAR"/>
+                                <connections>
+                                    <action selector="actualizarReservacionBoton:" destination="tse-u5-80G" eventType="touchUpInside" id="Wws-Bw-u0e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWu-9w-9i9">
+                                <rect key="frame" x="329" y="359" width="68" height="30"/>
+                                <animations/>
+                                <state key="normal" title="ELIMINAR"/>
+                                <connections>
+                                    <action selector="eliminarReservacionBoton:" destination="tse-u5-80G" eventType="touchUpInside" id="sAT-ZU-YiQ"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ztd-mY-Hcm">
+                                <rect key="frame" x="146" y="427" width="344" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u9L-vj-fsz">
+                                <rect key="frame" x="322" y="310" width="102" height="30"/>
+                                <animations/>
+                                <state key="normal" title="SELECCIONAR"/>
+                                <connections>
+                                    <action selector="consultarReservacionBoton:" destination="tse-u5-80G" eventType="touchUpInside" id="IgE-re-AJT"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ID RESERVACION" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lxp-dZ-vcJ">
+                                <rect key="frame" x="146" y="43" width="167" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -107,6 +269,16 @@
                             <outletCollection property="gestureRecognizers" destination="F8w-n2-qur" appends="YES" id="cBh-5i-ku9"/>
                         </connections>
                     </view>
+                    <connections>
+                        <outlet property="ReservacionTableView" destination="ztd-mY-Hcm" id="TkA-nj-yvd"/>
+                        <outlet property="codigoAsignaturaField" destination="LNb-k9-H1t" id="hVi-wb-lef"/>
+                        <outlet property="codigoLaboratorioField" destination="z83-Jh-vfV" id="dgF-ue-pDY"/>
+                        <outlet property="idDiaField" destination="cjd-kc-WH0" id="71K-3F-Hub"/>
+                        <outlet property="idHorarioField" destination="rr7-5f-7Ee" id="SfX-kO-hnj"/>
+                        <outlet property="idProfesorField" destination="0YL-I1-Gfc" id="bww-s5-xgL"/>
+                        <outlet property="idReservacionField" destination="lxp-dZ-vcJ" id="Yoi-kf-1EH"/>
+                        <outlet property="idReservacionTableView" destination="ztd-mY-Hcm" id="6OH-2I-dbB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XCa-za-DwQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="F8w-n2-qur">
@@ -115,7 +287,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="196" y="1267"/>
+            <point key="canvasLocation" x="192" y="1098"/>
         </scene>
         <!--Materias View Controller-->
         <scene sceneID="2kg-MI-dYl">
@@ -128,6 +300,63 @@
                     <view key="view" contentMode="scaleToFill" id="uwM-SM-mZN">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ipk-Fa-DAC">
+                                <rect key="frame" x="78" y="130" width="227" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ciclo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1fa-g2-Sbb">
+                                <rect key="frame" x="78" y="205" width="177" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUO-r1-kQS">
+                                <rect key="frame" x="418" y="54" width="73" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Insertar"/>
+                                <connections>
+                                    <action selector="insertarAsignatura:" destination="y0k-2k-r8W" eventType="touchUpInside" id="K4m-6E-bEL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WuN-9Q-xyQ">
+                                <rect key="frame" x="397" y="97" width="114" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Seleccionar"/>
+                                <connections>
+                                    <action selector="consultarAsignatura:" destination="y0k-2k-r8W" eventType="touchUpInside" id="guh-bc-6Hz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kji-me-Xrr">
+                                <rect key="frame" x="416" y="150" width="77" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Actualizar"/>
+                                <connections>
+                                    <action selector="actualizarAsignatura:" destination="y0k-2k-r8W" eventType="touchUpInside" id="xRN-gL-tKk"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Codigo " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zLl-gc-X6x">
+                                <rect key="frame" x="78" y="55" width="177" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5yy-8h-p2C">
+                                <rect key="frame" x="85" y="336" width="413" height="175"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uac-6Q-WGA">
+                                <rect key="frame" x="420" y="211" width="73" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Eliminar"/>
+                                <connections>
+                                    <action selector="eliminarAsignatura:" destination="y0k-2k-r8W" eventType="touchUpInside" id="0fA-X1-jah"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -135,6 +364,13 @@
                             <outletCollection property="gestureRecognizers" destination="zYZ-pI-TtT" appends="YES" id="4OQ-pi-P2n"/>
                         </connections>
                     </view>
+                    <connections>
+                        <outlet property="asignaturaTableView" destination="5yy-8h-p2C" id="bQw-Vy-s8N"/>
+                        <outlet property="cicloField" destination="1fa-g2-Sbb" id="zIH-ZL-Y9p"/>
+                        <outlet property="codAsignaturaField" destination="zLl-gc-X6x" id="qA6-xy-PSL"/>
+                        <outlet property="eliminarAsignatura" destination="Uac-6Q-WGA" id="gkC-D6-1oD"/>
+                        <outlet property="nombreField" destination="ipk-Fa-DAC" id="sOm-Z9-FW3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eKd-aV-fAY" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="zYZ-pI-TtT">
@@ -143,7 +379,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1166" y="1300"/>
+            <point key="canvasLocation" x="1158" y="1272"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -169,56 +405,59 @@
                                 <rect key="frame" x="317" y="76" width="240" height="128"/>
                                 <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="materias.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IgQ-8g-PkB">
-                                <rect key="frame" x="317" y="251" width="240" height="128"/>
-                                <animations/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RESERVA DE LCOMS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Fp-W1-yWB">
                                 <rect key="frame" x="220" y="28" width="174" height="40"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TIPO DE LABORATORIO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4na-FB-AFB">
                                 <rect key="frame" x="65" y="206" width="183" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LABORATORIO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DdJ-pN-X4I">
                                 <rect key="frame" x="374" y="206" width="115" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PROFESOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lvn-mL-UZy">
                                 <rect key="frame" x="101" y="380" width="87" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="materias.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IgQ-8g-PkB">
+                                <rect key="frame" x="317" y="251" width="240" height="128"/>
+                                <animations/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MATERIAS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oog-pL-enB">
                                 <rect key="frame" x="391" y="380" width="81" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RESERVACION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ux-Vs-plQ">
-                                <rect key="frame" x="244" y="544" width="113" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tipoLabs.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ylK-Cc-2Wn">
                                 <rect key="frame" x="36" y="76" width="240" height="128"/>
                                 <animations/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RESERVACION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ux-Vs-plQ">
+                                <rect key="frame" x="244" y="545" width="113" height="21"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES" playsSound="YES" staticText="YES" summaryElement="YES" searchField="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -270,6 +509,6 @@
         <image name="tipoLabs.jpg" width="225" height="225"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="BaX-fA-Oud"/>
+        <segue reference="247-VJ-Hiv"/>
     </inferredMetricsTieBreakers>
 </document>

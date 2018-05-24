@@ -48,9 +48,15 @@
             const char *sql_stmt = "create table profesor(idProfesor varchar(10) not null primary key, nombre varchar(10) not null);";
             
             sqlite3_exec(reservaBD, sql_stmt, NULL, NULL, &error);
-            //crear tabla
+            //CREACION DE TABLA RESERVACION
+            sql_stmt="create table reservacion(idReservacion varchar(10) not null primary key, idprofesor varchar(10) not null, codAsignatura varchar(10) not null, codLab varchar(10) not null, idHorario varchar(10) not null, idDia varchar(10) not null);";
             sqlite3_exec(reservaBD, sql_stmt, NULL, NULL, &error);
-            //crear tabla
+            //CREACION DE TABLA MATERIA
+            sql_stmt="create teable asignatura(codAsignatura varchar(10) not null primary key, nombre varchar(10) not null, ciclo varchar(10) not null);";
+            sqlite3_exec(reservaBD, sql_stmt, NULL, NULL, &error);
+            //CREACION DE TABLA TIPO LABORATORIO
+            sql_stmt="create table tipoLab(idTipoLab varchar(10) not null primary key,nombre varchar(10) not null,ram varchar(10) not null,sistemasOpe varchar(10) not null,capacidadDisco varchar(10) not null,procesador varchar(10) not null);";
+            
             sqlite3_exec(reservaBD, sql_stmt, NULL, NULL, &error);
             sqlite3_close(reservaBD);
             _dbPath = dbPathString;
