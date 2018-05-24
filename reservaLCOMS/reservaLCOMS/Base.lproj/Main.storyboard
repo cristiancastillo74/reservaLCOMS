@@ -131,6 +131,69 @@
                     <view key="view" contentMode="scaleToFill" id="oLb-A2-pdw">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Codiga Lab" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ahk-cU-Xox">
+                                <rect key="frame" x="28" y="33" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Id tipo lab" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7aK-qd-IkC">
+                                <rect key="frame" x="28" y="92" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cupo " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6mm-YS-O3S">
+                                <rect key="frame" x="28" y="152" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Planta" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F6j-45-DWY">
+                                <rect key="frame" x="28" y="213" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ON-R3-wc5">
+                                <rect key="frame" x="76" y="324" width="53" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Insertar"/>
+                                <connections>
+                                    <action selector="InsertarLaboratorioBoton:" destination="MIY-UI-WS0" eventType="touchUpInside" id="edk-m2-ULy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBn-tm-AgR">
+                                <rect key="frame" x="234" y="312" width="100" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Seleccionar"/>
+                                <connections>
+                                    <action selector="ConsultarLaboratorioBoton:" destination="MIY-UI-WS0" eventType="touchUpInside" id="NF8-DU-m3I"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MGY-Nr-nH0">
+                                <rect key="frame" x="62" y="368" width="91" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Actualizar"/>
+                                <connections>
+                                    <action selector="ActualizarLaboratorioBoton:" destination="MIY-UI-WS0" eventType="touchUpInside" id="k64-Xd-2BS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qw-28-3KR">
+                                <rect key="frame" x="250" y="363" width="84" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Eliminar"/>
+                                <connections>
+                                    <action selector="EliminarLaboratorioBoton:" destination="MIY-UI-WS0" eventType="touchUpInside" id="c7h-1D-uEH"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PK1-JV-WWI">
+                                <rect key="frame" x="70" y="425" width="240" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -138,6 +201,13 @@
                             <outletCollection property="gestureRecognizers" destination="9z2-yW-ZsO" appends="YES" id="edq-Jq-ztA"/>
                         </connections>
                     </view>
+                    <connections>
+                        <outlet property="LaboratorioTableView" destination="PK1-JV-WWI" id="FWa-GN-Ij7"/>
+                        <outlet property="codLabField" destination="Ahk-cU-Xox" id="xPp-RL-7Oj"/>
+                        <outlet property="cupoField" destination="6mm-YS-O3S" id="KES-Vg-Cv4"/>
+                        <outlet property="idTipoLabField" destination="7aK-qd-IkC" id="t6p-MW-j8C"/>
+                        <outlet property="plantaField" destination="F6j-45-DWY" id="nIv-VC-gQS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YXJ-we-hi7" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="9z2-yW-ZsO">
@@ -159,6 +229,78 @@
                     <view key="view" contentMode="scaleToFill" id="Qk2-Ur-7lG">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="nombre profesor" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2eH-US-XoS">
+                                <rect key="frame" x="272" y="130" width="158" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="96" y="115" width="158" height="30"/>
+                                </variation>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkJ-xd-Ljv">
+                                <rect key="frame" x="225" y="194" width="57" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Insertar"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="49" y="179" width="57" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="InsertarProfesorBoton:" destination="2oY-sO-g1O" eventType="touchUpInside" id="e2b-Tq-xSU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2UX-3o-J0r">
+                                <rect key="frame" x="408" y="194" width="93" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Seleccionar"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="232" y="179" width="93" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="SeleccionarProfesorBoton:" destination="2oY-sO-g1O" eventType="touchUpInside" id="Ajk-Tx-s28"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWD-Hh-Q2N">
+                                <rect key="frame" x="225" y="246" width="78" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Actualizar"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="49" y="231" width="78" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="ActualizarProfesorBoton:" destination="2oY-sO-g1O" eventType="touchUpInside" id="oOO-Xu-kiQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nOh-sO-lWB">
+                                <rect key="frame" x="408" y="246" width="67" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Eliminar"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="232" y="231" width="67" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="EliminarProfesorBoton:" destination="2oY-sO-g1O" eventType="touchUpInside" id="FhH-M7-3t5"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cA6-kl-OoV">
+                                <rect key="frame" x="225" y="333" width="240" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="49" y="318" width="240" height="128"/>
+                                </variation>
+                            </tableView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="id profesor" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="54k-dh-7lj">
+                                <rect key="frame" x="290" y="74" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="114" y="59" width="97" height="30"/>
+                                </variation>
+                            </textField>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -166,6 +308,11 @@
                             <outletCollection property="gestureRecognizers" destination="Hgg-F0-TIg" appends="YES" id="xgl-J5-BcM"/>
                         </connections>
                     </view>
+                    <connections>
+                        <outlet property="ProfesoresTableView" destination="cA6-kl-OoV" id="aLr-ni-1ZJ"/>
+                        <outlet property="idProfesorField" destination="54k-dh-7lj" id="HOe-Ly-oNe"/>
+                        <outlet property="nombreProfesorField" destination="2eH-US-XoS" id="3u5-po-sq1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZM4-NY-Aua" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Hgg-F0-TIg">
@@ -509,6 +656,10 @@
         <image name="tipoLabs.jpg" width="225" height="225"/>
     </resources>
     <inferredMetricsTieBreakers>
+<<<<<<< HEAD
         <segue reference="247-VJ-Hiv"/>
+=======
+        <segue reference="lYB-Bm-RwK"/>
+>>>>>>> 9d0e386709effab5f5b6b4cc306e9f16405aa529
     </inferredMetricsTieBreakers>
 </document>
